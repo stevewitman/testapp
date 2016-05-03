@@ -36,6 +36,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'poltergeist'
   gem 'database_cleaner'
+  gem 'teaspoon-jasmine'
 end
 
 group :development do
@@ -48,3 +49,5 @@ gem 'devise'
 gem 'bower-rails'
 
 gem 'faker'
+
+gem 'sprockets', '~> 2.0'
